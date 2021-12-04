@@ -7,12 +7,12 @@ body {
 }
 
 a {
-  color: linear-gradient(rgba(241, 189, 91, 0.9), rgba(207, 181, 30, 0.9));
+  color: rgba(207, 181, 30, 0.9) ;
   text-decoration: none;
 }
 
 a:hover {
-  color: #73c5eb;
+  color:rgba(241, 189, 91, 0.9);
   text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
+  border: 6px solid rgba(207, 181, 30, 0.9);
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6bc1e9;
+  background: rgba(241, 189, 91, 0.9);
   color: #fff;
 }
 .back-to-top.active {
@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #31a9e1;
+  background: rgba(241, 189, 91, 0.9);
 }
 .navbar .dropdown ul {
   display: block;
@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(207, 181, 30, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -286,14 +286,14 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color:rgba(207, 181, 30, 0.9);
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: linear-gradient(rgba(241, 189, 91, 0.9), rgba(207, 181, 30, 0.9));
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
-  color: #37517e;
+  color: rgba(207, 181, 30, 0.9);
 }
 .navbar-mobile .dropdown ul {
   position: static;
@@ -359,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(rgba(241, 189, 91, 0.9), rgba(207, 181, 30, 0.9));
 }
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: rgba(241, 189, 91, 0.9);
 }
 #hero .btn-watch-video {
   font-size: 16px;
@@ -967,7 +967,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: rgba(207, 181, 30, 0.9);
 }
 .team .member span {
   display: block;
@@ -1007,7 +1007,7 @@ section {
   background: #eff2f8;
 }
 .team .member .social a i {
-  color: #37517e;
+  color: rgba(207, 181, 30, 0.9);
   font-size: 16px;
   margin: 0 2px;
 }
@@ -1107,7 +1107,7 @@ section {
   color: #fff;
 }
 .pricing .featured .buy-btn:hover {
-  background: #23a3df;
+  background: rgba(241, 189, 91, 0.9);
 }
 @media (max-width: 992px) {
   .pricing .box {
@@ -1179,7 +1179,7 @@ section {
   display: none;
 }
 .faq .faq-list a.collapsed {
-  color: #F9DFB2  ;
+  color: rgba(207, 181, 30, 0.9)  ;
   transition: 0.3s;
 }
 .faq .faq-list a.collapsed:hover {
@@ -1226,7 +1226,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #37517e;
+  color: rgba(207, 181, 30, 0.9);
 }
 .contact .info p {
   padding: 0 0 10px 60px;
@@ -1347,7 +1347,7 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #209dd8;
+  background: rgba(255, 222, 161, 0.9);
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1415,7 +1415,7 @@ section {
   background: #f3f5fa;
   text-align: center;
   font-size: 15px;
-  color: #444444;
+  color: rgba(207, 181, 30, 0.9);
 }
 #footer .footer-newsletter h4 {
   font-size: 24px;
@@ -1423,7 +1423,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #37517e;
+  color: rgba(207, 181, 30, 0.9);
 }
 #footer .footer-newsletter form {
   margin-top: 30px;
@@ -1455,7 +1455,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #209dd8;
+  background: rgba(255, 222, 161, 0.9);
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
@@ -1471,19 +1471,19 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: rgba(207, 181, 30, 0.9);
 }
 #footer .footer-top .footer-contact p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Jost", sans-serif;
-  color: #5e5e5e;
+  color: rgba(241, 189, 91, 0.9);
 }
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: rgba(207, 181, 30, 0.9);
   position: relative;
   padding-bottom: 12px;
 }
@@ -1534,7 +1534,7 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background: rgba(241, 189, 91, 0.9);
   color: #fff;
   text-decoration: none;
 }
