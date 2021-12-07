@@ -1040,7 +1040,7 @@ section {
   font-weight: 500;
   font-family: "Jost", sans-serif;
   transition: 0.3s;
-  border: 1px solid linear-gradient(rgba(241, 189, 91, 0.9), rgba(207, 181, 30, 0.9));
+  border: 2px solid #fff;;
 }
 .pricing .buy-btn:hover {
   background: linear-gradient(rgba(241, 189, 91, 0.9), rgba(207, 181, 30, 0.9));
