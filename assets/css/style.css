@@ -986,11 +986,11 @@ section {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 20px;
-  color: #37517e;
+  color: rgba(207, 181, 30, 0.9);
 }
 .pricing h4 {
   font-size: 48px;
-  color: #37517e;
+  color: #647da8;
   font-weight: 400;
   font-family: "Jost", sans-serif;
   margin-bottom: 25px;
